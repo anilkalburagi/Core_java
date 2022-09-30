@@ -8,8 +8,15 @@ class Restaurent{
 	int cost = 2;
 	boolean isPuerVEG = true;
 	String owner = ("A"+"n"+"i");
-	String partners = "prajwal sachin sunil bhagy" ;
+	String partenrs[] = new String[5];
 	
-	
-	
+	Restaurent (){
+	partenrs[0] = "rocky";
+	partenrs[1] = "sunil";
+	partenrs[4] = "sachin";
+	partenrs[3] = "prajwal";
+	partenrs[2] = "Ani";
 }
+	
+	
+}   

@@ -10,7 +10,12 @@ class Testrestaurent {
 	System.out.println(annapuranna.cost);
 	System.out.println(annapuranna.isPuerVEG);
 	System.out.println(annapuranna.owner);
-	System.out.println(annapuranna.partners);
+	
+	for (int i = 0; i < annapuranna.partenrs.length; i++ ){
+		
+		System.out.println(annapuranna.partenrs[i]);
+	}
+	
 	
 	}
 }
