@@ -27,7 +27,7 @@ class Calculater1 {
 	  public static void main(String []ak){
 		 Scanner scanner = new Scanner(System.in);
 			System.out.println("enter the first value");
-			
+
 			int a=scanner.nextInt();
 			System.out.println("enter sec value");
 			int b=scanner.nextInt();
